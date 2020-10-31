@@ -9,6 +9,10 @@ My attempt:
 
 What could be done to improve the transition between last and first slide of two cycles? 
 
+_ 
+
+I had to move assets file into src folder to import images into slider. I read that another way to do it is to eject and remove ModuleScopePlugin from webpack configuration file, but doing it would result in a loss of some features and its updates. Is there another, safe way to import assets from the outside of a src file?
+
 
 ## 
 
