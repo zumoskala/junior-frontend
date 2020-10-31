@@ -9,6 +9,9 @@ My attempt:
 
 What could be done to improve the transition between last and first slide of two cycles? 
 
+
+## 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Instalation
