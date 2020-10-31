@@ -1,3 +1,14 @@
+
+## Doubts and problems 
+
+# Task 1
+At one point – at the end of a current series of slides – the transition is not smooth. I wonder if there exist any method to make the return to the beginning of a cycle of a slider go without a noticeable break. 
+My attempt: 
+ - to reduce the visibility of images scrolling backwards to the regular direction of slides sliding, I reduced transition duration to 0s
+ - to make the transition between last and first element more smooth, I tried to use the setTimeout() method on a whole sequence responsible for the return to the initial position of slider. Unfortunately it did not cause any noticeable improvement, so I decided not to use it. 
+
+What could be done to improve the transition between last and first slide of two cycles? 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Instalation
