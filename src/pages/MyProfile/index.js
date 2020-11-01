@@ -1,13 +1,13 @@
 import React from "react";
 
-import {Footer} from "components/Footer";
 import * as Section from "../../components/PageSection";
+import User from "../../components/User/User";
 
 export const MyProfile = () => (
     <div>
         <Section.Wrapper>
             <Section.Content>
-                <p>It works!</p>
+                <User />
             </Section.Content>
         </Section.Wrapper>
     </div>
