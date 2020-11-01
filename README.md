@@ -20,7 +20,7 @@ During working on task 3 I noticed that some of the files were not pushed into r
 
 I had a problem with deploying my app to github pages. While it was built correctly, after running 'npm run deploy' command I got an error saying:
 
-"git-upload-pack '.': git-upload-pack: command not found
+`git-upload-pack '.': git-upload-pack: command not found
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
@@ -33,7 +33,7 @@ npm ERR! Exit status 1
 npm ERR!
 npm ERR! Failed at the junior-frontend@0.1.0 deploy script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-"
+`
 
 Even though I tried various solutions mentioned on stackoverflow (e.g. regenerating an SSH key or adding informations to environmental path variable) it didn't work. I am wondering how this problem can be solved?
 
