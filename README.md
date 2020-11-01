@@ -13,6 +13,29 @@ _
 
 I had to move assets file into src folder to import images into slider. I read that another way to do it is to eject and remove ModuleScopePlugin from webpack configuration file, but doing it would result in a loss of some features and its updates. Is there another, safe way to import assets from the outside of a src file?
 
+# Task 3
+During working on task 3 I noticed that some of the files were not pushed into repository in initial commit, so I pushed all of them to github.
+
+# Final
+
+I had a problem with deploying my app to github pages. While it was built correctly, after running 'npm run deploy' command I got an error saying:
+
+"git-upload-pack '.': git-upload-pack: command not found
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! junior-frontend@0.1.0 deploy: `gh-pages -d build`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the junior-frontend@0.1.0 deploy script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+"
+
+Even though I tried various solutions mentioned on stackoverflow (e.g. regenerating an SSH key or adding informations to environmental path variable) it didn't work. I am wondering how this problem can be solved?
 
 ## 
 
